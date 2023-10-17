@@ -4,22 +4,17 @@
 body {
   margin: 0;
 }
-.top-bar {
-  display: flex;
-  justify-content: space-between;
-  background-color: black;
-  padding: 11px 5px;
-}
 
-.top-bar div i {
-  color: white;
-  background-color: black;
-  border: 0;
-  margin: 0;
-  padding: 0px 12px;
-}
 @media (max-width: 600px) {
   #top-bar {
     display: none;
   }
 }
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 40px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
