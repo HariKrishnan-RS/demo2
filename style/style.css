@@ -107,7 +107,7 @@ body {
 .article-flexbox-div {
   display: flex;
   flex-direction: row;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(240, 240, 240);
   margin: 25px 33px;
 }
 @media (max-width: 990px) {
@@ -120,20 +120,19 @@ body {
   #side-bar-div {
     width: 100%;
   }
+  #side-bar-div {
+    margin: 0;
+  }
 }
 .main-bar-div {
   /* width: 66%; */
-  width: 66%;
+  width: 66.5%;
   background-color: rgb(240, 240, 240);
 }
 .main-bar-div .main-bar-block-one:last-child {
   margin-bottom: 30px;
 }
-.side-bar-div {
-  height: 100px;
-  width: 34%;
-  background-color: bisque;
-}
+
 /* ///////start main bar blocks////////////////////////////////////////// */
 .main-bar-block-one {
   display: flex;
@@ -253,6 +252,36 @@ h2 {
 }
 .post-div-info {
   margin-left: 110px;
+}
+
+/* ?????????????????????????????????????????? */
+
+/* ?????????????????????????????????????????? */
+
+/* ??????   side bar   ???????????????????????????????????? */
+.side-bar-div {
+  width: 33.5%;
+  background-color: bisque;
+  margin-left: 30px;
+}
+.my-name-div {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+.my-name-div h1 {
+  margin: 0px 15px;
+  font-weight: 550;
+  font-size: 20px;
+}
+.my-name-div p {
+  margin: 15px 15px;
+  font-size: 15px;
+  line-height: 25px;
+}
+.my-name-div img {
+  margin-bottom: 8px;
 }
 /* font-family: "Oswald
 ";    "Open Sans";*/
