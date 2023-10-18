@@ -312,6 +312,87 @@ h2 {
 .posts:last-child {
   border-bottom: 0;
 }
+/* ////   advertice ment //////////////////////////// */
+.adverticement-div {
+  margin-top: 30px;
+  background-color: white;
+  margin-top: 40px;
+  padding-bottom: 15px;
+}
+.adverticement-heading {
+  font-family: "Oswald";
+  background-color: black;
+  color: white;
+  padding: 15px 15px;
+  font-size: 20px;
+}
+.ad-area {
+  display: flex;
+  background-color: rgb(244, 244, 244);
+  margin: 15px;
+  height: 210px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ////////////////  tags  ///////////////////////////////////////// */
+
+.tag-div {
+  margin-top: 30px;
+  background-color: white;
+  margin-top: 40px;
+  padding-bottom: 15px;
+}
+.tag-heading {
+  font-family: "Oswald";
+  background-color: black;
+  color: white;
+  padding: 15px 15px;
+  font-size: 20px;
+}
+.tag-area {
+  display: flex;
+
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  margin-bottom: 0px;
+  font-size: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+  line-height: 40px;
+}
+.tag-area span {
+  background-color: rgb(245, 245, 245);
+  margin-right: 2px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.tag-area span:first-child {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+/* ///  inspiration  ///////////////////////////////////////////////////
+ */
+
+.inspiration-div {
+  margin-top: 30px;
+  background-color: white;
+  margin-top: 40px;
+  padding-bottom: 15px;
+}
+.inspiration-heading {
+  font-family: "Oswald";
+  background-color: black;
+  color: white;
+  padding: 15px 15px;
+  font-size: 20px;
+}
+.inspiration-area {
+}
 
 /* font-family: "Oswald
 ";    "Open Sans";*/
