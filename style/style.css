@@ -126,6 +126,9 @@ body {
   width: 66%;
   background-color: rgb(240, 240, 240);
 }
+.main-bar-div .main-bar-block-one:last-child {
+  margin-bottom: 30px;
+}
 .side-bar-div {
   height: 100px;
   width: 34%;
