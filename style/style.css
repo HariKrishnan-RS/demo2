@@ -402,5 +402,29 @@ h2 {
 .inspiration-area img {
   width: 100%;
 }
+/* ////  follow me  ///////////////////////////////////////////////////// */
+
+.follow-me-div {
+  margin-top: 30px;
+  background-color: white;
+  margin-top: 40px;
+  padding-bottom: 15px;
+}
+.follow-me-heading {
+  font-family: "Oswald";
+  background-color: black;
+  color: white;
+  padding: 15px 15px;
+  font-size: 20px;
+}
+.follow-me-area {
+  display: flex;
+  margin: 15px;
+  margin-bottom: 0;
+}
+.follow-me-area i {
+  padding-right: 8px;
+  font-size: 25px;
+}
 /* font-family: "Oswald
 ";    "Open Sans";*/
