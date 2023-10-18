@@ -392,7 +392,15 @@ h2 {
   font-size: 20px;
 }
 .inspiration-area {
+  display: grid;
+  grid-template: 1fr 1fr/1fr 1fr;
+  gap: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
+.inspiration-area img {
+  width: 100%;
+}
 /* font-family: "Oswald
 ";    "Open Sans";*/
