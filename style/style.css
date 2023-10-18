@@ -63,3 +63,42 @@ body {
   color: white;
   padding: 0px 8px;
 }
+/* /////////////////////////////////////////////////////////////////////////// */
+.main-img {
+  width: 100%;
+  margin-top: 45px;
+}
+.main-img-div {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.absolute-box-one {
+  position: absolute;
+  color: rgb(213, 213, 213);
+  margin-left: 25px;
+}
+.absolute-box-one h2 {
+  font-size: 35px;
+  font-family: "Oswald";
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.absolute-box-one h1 {
+  font-size: 67px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.absolute-box-one .subscribe-button {
+  padding: 12px 25px;
+  font-family: "Oswald";
+  font-size: 17px;
+  background-color: rgba(255, 255, 255, 0.578);
+  border: 0;
+}
+.absolute-box-one .subscribe-button:hover {
+  background-color: rgb(194, 194, 194);
+}
