@@ -426,5 +426,43 @@ h2 {
   padding-right: 8px;
   font-size: 25px;
 }
+/* ?//  Subscribe block   /////////////////////////////////////////////////////////// */
+
+.subscribe-div {
+  margin-top: 30px;
+  background-color: white;
+  margin-top: 40px;
+  padding-bottom: 15px;
+}
+.subscribe-heading {
+  font-family: "Oswald";
+  background-color: black;
+  color: white;
+  padding: 15px 15px;
+  font-size: 20px;
+}
+.subscribe-area {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.subscribe-area p {
+  font-size: 15px;
+}
+.subscribe-area input {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  padding: 10px 8px;
+  border: 1px solid rgb(226, 226, 226);
+}
+.subscribe-area input:last-child {
+  margin-top: 15px;
+  background-color: rgba(237, 43, 43, 0.802);
+}
+.subscribe-area input:last-child:hover {
+  color: black;
+  background-color: rgb(222, 222, 222);
+}
 /* font-family: "Oswald
 ";    "Open Sans";*/
